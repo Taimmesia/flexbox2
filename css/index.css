@@ -1,0 +1,12 @@
+body {
+  max-width: 1152px;
+  height: 700px;
+  background-color: #370617;
+}
+
+.container {
+  max-width: 468px;
+  height: 160px;
+  display: flex;
+  background-color: #f48c06;
+}
