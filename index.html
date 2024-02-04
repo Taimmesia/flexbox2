@@ -6,39 +6,41 @@
     <link rel="stylesheet" href="css/index.css" />
     <title>Flexbox Practice 2.</title>
   </head>
-  <header>
-    <h2>Squares</h2>
-  </header>
   <body>
-    <div class="container container1">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div>
-    <div class="container container2">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div>
-    <div class="container container3">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div>
-    <div class="container container4">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div>
-    <div class="container container5">
-      <div class="card">box 1</div>
-      <div class="card">box 2</div>
-      <div class="card">box 3</div>
-    </div>
-    <div class="container container6">
-      <div class="card"></div>
-      <div class="card" style="flex-grow: 2"></div>
-      <div class="card"></div>
+    <header>
+      <h2>Squares</h2>
+    </header>
+    <div class="container">
+      <div class="flex-container container1">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <div class="flex-container container2">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <div class="flex-container container3">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <div class="flex-container container4">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card align-self"></div>
+      </div>
+      <div class="flex-container container5">
+        <div class="card">box 1</div>
+        <div class="card align-self2">box 2</div>
+        <div class="card">box 3</div>
+      </div>
+      <div class="flex-container container6">
+        <div class="card"></div>
+        <div class="card grow-item"></div>
+        <div class="card"></div>
+      </div>
     </div>
   </body>
 </html>
