@@ -1,25 +1,33 @@
 body {
   max-width: 1152px;
   height: 800px;
-  background-color: #370617;
+  background-color: white;
 }
 
 .container {
-  max-width: 468px;
-  height: 250px;
-  margin: 90px 26px 20px 92px;
+  margin: 0px auto;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #f48c06;
-  border: #f48c06;
+  background-color: white;
+  border: white solid 3px;
   border-radius: 8px;
 }
 
+.flex-container {
+  width: 468px;
+  height: 250px;
+  border: black solid 3px;
+  margin-bottom: 20px;
+  margin-right: 26px;
+  margin-top: 70px;
+}
+
 .card {
-  max-width: 78px;
+  width: 78px;
+  min-height: 78px;
   width: 100%;
-  height: 78px;
   margin: 20px;
   padding: 15px;
   background-color: #9d0208;
@@ -51,11 +59,23 @@ body {
 .container5 {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: stretch;
 }
 
 .container6 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.align-self {
+  align-self: flex-end;
+}
+
+.align-self2 {
+  align-self: center;
+}
+
+.grow-item {
+  flex-grow: 3;
 }
